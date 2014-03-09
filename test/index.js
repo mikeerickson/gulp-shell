@@ -109,7 +109,7 @@ describe('gulp-shell(commands, options)', function () {
       })
     })
 
-    describe('cwd', function () {
+    xdescribe('cwd', function () {
       it('should set the current working directory when `cwd` is a string', function (done) {
         var stream = shell(['pwd'], {cwd: '..'})
 
@@ -119,7 +119,7 @@ describe('gulp-shell(commands, options)', function () {
       })
     })
 
-    describe('cwd', function () {
+    xdescribe('cwd', function () {
       it('should use the process current working directory when `cwd` is not passed', function (done) {
         var stream = shell(['pwd'])
 
